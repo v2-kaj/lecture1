@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{% block title %} {% endblock %}</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+
+  <body>
+    <div class="container">
+      {% block body %}
+    <h1> {% block heading %} {% endblock %} </h1>
+
+    {% endblock %}
+  </div>
+    </body>
+</html>
